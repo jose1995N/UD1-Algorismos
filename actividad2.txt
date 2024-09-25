@@ -1,0 +1,8 @@
+2. Calcular el perímetro y área de un rectángulo dada su base y su altura.
+
+1- inicio 
+2- leer la base
+3- Leer la altura 
+4- multiplicamos la base * altura
+5- Mostramos resultados
+6- Fin 
