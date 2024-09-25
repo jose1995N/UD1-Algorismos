@@ -1,0 +1,6 @@
+1 - Inicio
+2- Leer cateto1 
+3- Leer Cateto2
+4- hipotenusa = Raízcuadrada(cateto1 ^2 + cateto2 ^2)
+5- Mostrar el resultado hipotenusa
+6- Fin
