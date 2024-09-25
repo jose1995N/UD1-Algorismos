@@ -1,0 +1,6 @@
+1. Escribir un programa que pregunte al usuario su nombre, y luego lo salude.
+
+1- inicio
+2- Nombre
+3- Nombre "Hola como estas"
+4- Fin
