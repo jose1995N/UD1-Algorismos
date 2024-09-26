@@ -1,0 +1,17 @@
+//8Un vendedor recibe un sueldo base más un 10% extra por comisión de sus ventas, el vendedor desea
+//saber cuánto dinero obtendrá por concepto de comisiones por las tres ventas que realiza en el mes y
+//el total que recibirá en el mes tomando en cuenta su sueldo base y comisiones.
+
+1-Proceso sin_titulo
+2-Escribir "Introduce el sueldo Base"
+3-leer sueldoBase
+4-Escribir "Introduce primera venta"
+5-leer valor1
+6-Escribir "Introduce segunda venta"
+7-leer valor2
+8-Escribir "Introduce tercera venta"
+9-leer valor3
+10-valor<- ((valor1+valor2+valor3)*10)/100
+11-sueldoBase<- sueldoBase+ valor
+12-Escribir "El sueldo base es:" sueldoBase
+13-FinProceso

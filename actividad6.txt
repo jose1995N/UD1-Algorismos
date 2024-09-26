@@ -1,0 +1,8 @@
+Calcular la media de tres números pedidos por teclado
+1-Inicio
+2-Leer numero1
+3-Leer numero2
+4-Leer numero3
+5-media = (numero1 + numero2 + numero3) / 3
+6- mostrar media
+7-Fin

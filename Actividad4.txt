@@ -1,0 +1,13 @@
+//4. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos
+1-Inicio
+2-Leer numero1
+3-Leer numero2
+4-suma = numero1 + numero2
+5-resta = numero1 - numero2
+6-multiplicacion = numero1 * numero2
+7-division = numero1 / numero2
+8-muestra Suma
+9-muestra resta
+10-muestra multiplicacion
+11-muesta division
+12-Fin
