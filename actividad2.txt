@@ -3,6 +3,6 @@
 1- inicio 
 2- leer base
 3- Leer altura 
-4- multiplicamos la base * altura
-5- Mostramos resultados
+4- area< ---base * altura
+5- Mostrar area
 6- Fin 
