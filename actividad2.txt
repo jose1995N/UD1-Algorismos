@@ -4,5 +4,7 @@
 2- leer base
 3- Leer altura 
 4- area< ---base * altura
-5- Mostrar area
-6- Fin 
+5- perimetro <-- 2*(a+b)
+6- Mostrar area
+7-mostrar perimetro
+8- Fin 
