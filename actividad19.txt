@@ -1,0 +1,14 @@
+19 Pedir el nombre y los dos apellidos de una persona y mostrar las iniciales.
+
+1-Inicio
+2-mostrar "Ingrese su nombre:"
+3-Leer nombre
+4-mostrar "Ingrese su primer apellido:"
+5-Leer apellido1
+6-mostrar "Ingrese su segundo apellido:"
+7-Leer apellido2
+8-inicial_nombre = nombre[0]
+9-inicial_apellido1 = apellido1[0]
+10-inicial_apellido2 = apellido2[0]
+11- mostrar "Las iniciales son:", inicial_nombre, inicial_apellido1, inicial_apellido2
+12-Fin

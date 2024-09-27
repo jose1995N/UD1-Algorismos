@@ -1,0 +1,20 @@
+//21 Diseñar un algoritmo que nos diga el dinero que tenemos (en euros y céntimos) después de pedirnos
+cuantas monedas tenemos (de 2€, 1€, 50 céntimos, 20 céntimos o 10 céntimos).
+
+
+1-Inicio
+2-mostrar"Ingrese el número de monedas de 2€:"
+3-Leer monedas_2
+4-mostrar "Ingrese el número de monedas de 1€:"
+5-Leer monedas_1
+6- mostrar "Ingrese el número de monedas de 50 céntimos:"
+7-Leer monedas_50
+8-mostrar "Ingrese el número de monedas de 20 céntimos:"
+9-Leer monedas_20
+10- mostrar"Ingrese el número de monedas de 10 céntimos:"
+11-Leer monedas_10
+12-total_centos <-- (monedas_2 * 200) + (monedas_1 * 100) + (monedas_50 * 50) + (monedas_20 * 20) + (monedas_10 * 10)
+13- euros <-- total_centos // 100
+14-centimos <-- total_centos % 100
+15-mostrar "Total: ", euros, " euros y ", centimos, " céntimos."
+16-Fin

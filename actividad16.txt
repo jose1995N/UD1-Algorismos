@@ -1,0 +1,21 @@
+//16. Dos vehículos viajan a diferentes velocidades (v1 y v2) y están distanciados por una distancia d. El que
+//está detrás viaja a una velocidad mayor. Se pide hacer un algoritmo para ingresar la distancia entre los
+//dos vehículos (km) y sus respectivas velocidades (km/h) y con esto determinar y mostrar en qué
+//tiempo (minutos)
+
+1-Inicio
+2-mostrar "Ingrese la distancia entre los vehículos km:"
+3-Leer d
+4-mostrar "Ingrese la velocidad del vehículo adelante km/h:"
+5-Leer velocidad1
+6-mostrar "Ingrese la velocidad del vehículo detrás (km/h):"
+7-Leer velocidad2
+8-Si velocidad2 <= velocidad1 Entonces
+9-mostrar "El vehículo detrás no puede alcanzar al de adelante."
+10-Sino
+11-diferencia_velocidad = velocidad2 - velocidad1
+12-tiempo_horas = d / diferencia_velocidad
+13-tiempo_minutos = tiempo_horas * 60
+14-mostrar "El tiempo que tardará el vehículo detrás en alcanzar al de adelante es:", tiempo_minutos, "minutos."
+15-Fin Si
+16-Fin

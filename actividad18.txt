@@ -1,0 +1,18 @@
+ //18-Un ciclista parte de una ciudad A a las HH horas, MM minutos y SS segundos. El tiempo de viaje hasta
+//llegar a otra ciudad B es de T segundos. Escribir un algoritmo que determine la hora de llegada a la ciudad B.
+1-Inicio
+2-mostrar "Ingrese la hora de salida (HH):"
+3-Leer HH
+4-mostrar"Ingrese los minutos de salida (MM):"
+5-Leer MM
+6-mostrar "Ingrese los segundos de salida (SS):"
+7-Leer SS
+8-mostrar "Ingrese el tiempo de viaje (T) en segundos:"
+10-Leer T
+11-tiempo_inicial_segundos = HH * 3600 + MM * 60 + SS
+12-tiempo_total_segundos = tiempo_inicial_segundos + T
+13-HH_llegada = (tiempo_total_segundos // 3600) % 24  // Obtener horas (mod 24)
+14-MM_llegada = (tiempo_total_segundos % 3600) // 60   // Obtener minutos
+15-SS_llegada = tiempo_total_segundos % 60              // Obtener segundos
+16- mostrar "La hora de llegada a la ciudad B es:", HH_llegada, "horas,", MM_llegada, "minutos y", SS_llegada, "segundos."
+17-Fin
