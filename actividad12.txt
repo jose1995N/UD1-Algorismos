@@ -1,0 +1,12 @@
+//12. Pide al usuario dos pares de números x1,y2 y x2,y2, que representen dos puntos en el plano. Calcula y
+//muestra la distancia entre ellos.
+1-Inicio
+2-mostrar "Ingrese las coordenadas del primer punto (x1, y1):"
+3-Leer x1
+4-Leer y1
+5-mostar "Ingrese las coordenadas del segundo punto (x2, y2):"
+6-Leer x2
+7-Leer y2
+8-distancia = Raíz((x2 - x1)² + (y2 - y1)²)
+9-mostrar "La distancia entre los puntos es:", distancia
+10-Fin

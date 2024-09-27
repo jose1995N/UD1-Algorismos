@@ -1,0 +1,21 @@
+//10. Un alumno desea saber cuál será su calificación final en la materia de Algoritmos. Dicha calificación se
+//compone de los siguientes porcentajes:
+//○ 55% del promedio de sus tres calificaciones parciales.
+//○ 30% de la calificación del examen final.
+//○ 15% de la calificación de un trabajo final.
+
+1-Inicio
+2-mostrar "Ingrese la calificación del primer parcial:"
+3-Leer C1
+4-mostrar "Ingrese la calificación del segundo parcial:"
+5-Leer C2
+6-mostrar "Ingrese la calificación del tercer parcial:"
+7-Leer C3
+8-promedioParciales = (C1 + C2 + C3) / 3
+9-mostrar "Ingrese la calificación del examen final:"
+10-Leer examenFinal
+11-mostrar "Ingrese la calificación del trabajo final:"
+12-Leer trabajoFinal
+13-calificacionFinal = (0.55 * promedioParciales) + (0.30 * examenFinal) + (0.15 * trabajoFinal)
+14-mostrar "La calificación final es:", calificacionFinal
+15-Fin

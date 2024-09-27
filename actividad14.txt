@@ -1,0 +1,14 @@
+//14. Dado un número de dos cifras, diseñe un algoritmo que permita obtener el número invertido.
+//Ejemplo, si se introduce 23 que muestre 32.
+1-Inicio
+2-mostrar"Ingrese un número de dos cifras:"
+3-Leer numero
+4-Si numero < 10 o numero > 99 Entonces
+5-mostrar "El número debe tener dos cifras."
+6-Sino
+7-decenas <- numero / 10
+8-unidades <- numero % 10
+9-numeroInvertido <- unidades * 10 + decenas
+10-mostrar"El número invertido es: ", numeroInvertido
+11-FinSi
+12-Fin

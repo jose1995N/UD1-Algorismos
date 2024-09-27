@@ -1,0 +1,14 @@
+//Dadas dos variables numéricas A y B, que el usuario debe teclear, se pide realizar un algoritmo que
+//intercambie los valores de ambas variables y muestre cuánto valen al final las dos variables.
+1-inicio
+2-mostrar "Ingrese el valor de A:"
+3-Leer A
+4-mostrar "Ingrese el valor de B:"
+5-Leer B
+6-temporal <- A
+7-A <- B
+8-B <- temporal
+9-mostrar "Después del intercambio:"
+10 mostrar "A = ", A
+11 mostrar "B = ", B
+12-Fin
